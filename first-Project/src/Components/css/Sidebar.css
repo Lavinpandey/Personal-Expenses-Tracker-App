@@ -1,0 +1,62 @@
+.Sidebar {
+  width: 280px;
+  height: 100vh;
+  position: fixed;
+  background-color: #0f172a;
+  padding: 20px;
+  color: white;
+}
+
+.Sidebar h2 {
+  margin:24px;
+  color: #e5e7eb;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.Sidebar button {
+  margin-top: 130px;
+  width: 200px;
+  padding: 16px 22px;
+  background-color: #7c3aed;
+  color: #e5e7eb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.Sidebar button:hover {
+  background-color: #8b5cf6;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(168, 85, 247, 0.4);
+}
+.wallet-card{
+  margin: 10px;
+  padding: 20px;
+  background: #111827;
+  border : 1px solid #263244;
+  border-radius: 12px;
+  color: white;
+}
+.wallet-card p {
+  color : #cbd5e1;
+  font-size: 14px;
+  margin: 0;
+}
+.wallet-card h2 {
+  font-size: 28px;
+  margin: 10px
+}
+.wallet-card span {
+  color : #22c55e;
+  font-size: 14px;
+}
+.chart {
+  margin-top: 20px;
+  color : #7c3aed;
+  font-size: 30px;
+}
